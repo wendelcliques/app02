@@ -1,7 +1,7 @@
-import firestore from 'firebase/firestore';
-import firebase from './utils/Firebase'
+import 'firebase/firestore';
+import firebase from './../utils/Firebase'
 
-export const addEntry = async entry => {
+export const addEntry = async () => {
 
     let data = {};
 
@@ -11,7 +11,7 @@ export const addEntry = async entry => {
         name: "wendel",
     };
 
-    await firestore()
+    await firebase.firestore()
     .collection('entries')
     .add(data)
 } catch (error) {
