@@ -3,7 +3,7 @@ import { withRouter, Redirect  } from 'react-router-dom';
 import { authConfig } from '../auth/config';
 import { AuthContext } from '../auth/AuthContext';
 
-const Logar = withRouter(({ history}) => {
+export const Logar = withRouter(({ history}) => {
 const loginFunc = useCallback(
     async (event) => {
         event.preventDefault();
@@ -43,4 +43,3 @@ return (
 );
 });
 
-export default Logar

@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { withRouter } from 'react-router-dom';
 import { authConfig } from '../auth/config';
 
-const Cadastrar = withRouter((props) => {
+export const Cadastrar = withRouter((props) => {
 const { history } = props;
 const cadastroFunc = useCallback(
     async (event) => {
@@ -36,4 +36,3 @@ return (
 )
 })
 
-export default Cadastrar

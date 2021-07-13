@@ -1,7 +1,7 @@
 import React from 'react';
 import { authConfig } from '../auth/config';
 
-const Inicio = () => {
+export const Inicio = () => {
 return (
     <div>
         <h1>Início</h1>
@@ -10,4 +10,3 @@ return (
 )
 }
 
-export default Inicio

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import { BrouserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Inicio } from './componentes/Inicio';
 import { Cadastrar } from './componentes/Cadastrar';
 import { Logar } from './componentes/Logar';
