@@ -17,6 +17,8 @@ export const addEntry = async () => {
 } catch (error) {
     console.error(
         JSON.stringify(error)
+    ,
+    alert('Deu erro',JSON.stringify(error))
     
     );
 }
